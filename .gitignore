@@ -1,0 +1,14 @@
+# 编译产物 (用 编译.cmd 现场生成, 不入库)
+*.exe
+*.pdb
+*.obj
+*.cache
+
+# 诊断脚本产生的日志
+*.log
+sniff_log.txt
+
+# 构建临时目录
+obj/
+bin/
+_verify/
