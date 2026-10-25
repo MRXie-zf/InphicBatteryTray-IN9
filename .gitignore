@@ -4,6 +4,9 @@
 *.obj
 *.cache
 
+# 但 dist/ 下发布用的 exe 要入库
+!dist/*.exe
+
 # 诊断脚本产生的日志
 *.log
 sniff_log.txt
